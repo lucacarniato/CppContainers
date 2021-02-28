@@ -3,4 +3,4 @@ NumericArray is a template class derived from MyArray and can be used with datat
 The Stack class “has a” MyArray class and mimics some of the stack functionalities (for example the pop and push functions). 
 
 All three classes (MyArray, NumericArray and Stack) can throw exceptions in case an out of bound entry is requested. The classes that implement the exceptions are ArrayException and StackException. Exceptions are caught in main.
-The class shape is an abstract class that it is used as a base class for other classes (line and point). The base class methods toString and Draw are overloaded in the derived classes. Specifying a base class for all shapes allows us to use polymorphism.  
+The class shape is an abstract class that it is used as a base class for other classes (line and point). The base class methods ToString() and Draw() are overloaded in the derived classes. Specifying a base class for all shapes allows us to use polymorphism.  
